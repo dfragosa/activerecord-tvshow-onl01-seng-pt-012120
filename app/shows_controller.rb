@@ -1,4 +1,4 @@
-def highest_rating
+def self.highest_rating
   show = Show.maximum(:rating)
 end
 
