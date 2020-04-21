@@ -1,4 +1,5 @@
 def highest_rating
+  show = Show.create
   
 end
 
