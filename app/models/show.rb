@@ -13,7 +13,7 @@ def self.lowest_rating
 end
 
 def self.least_popular_show
-  show = Show.first("rating = ?", self.lowest_rating)
+  show = Show.("rating = ?", self.lowest_rating)
 end
 
 def ratings_sun
