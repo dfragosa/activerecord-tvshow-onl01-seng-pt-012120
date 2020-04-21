@@ -6,11 +6,10 @@ end
 
 def self.most_popular_show
   show = Show.find_by("rating ")
-  
 end
 
-def lowest_rating
-  
+def self.lowest_rating
+  Show.
 end
 
 def least_popular_show
