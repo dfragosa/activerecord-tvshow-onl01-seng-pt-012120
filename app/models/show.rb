@@ -13,7 +13,7 @@ def self.lowest_rating
 end
 
 def least_popular_show
-  show = Show.where("rating = ?, Show.lowest_rating")
+  show = Show.where("rating = ?, Show.lowest_rating").first
 end
 
 def ratings_sun
