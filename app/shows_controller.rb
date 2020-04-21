@@ -1,6 +1,6 @@
 def highest_rating
   show = Show.create
-  
+  show.maximum("rating")
 end
 
 def most_popular_show
