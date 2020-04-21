@@ -5,7 +5,7 @@ def self.highest_rating
 end
 
 def self.most_popular_show
-  show = Show(highest_rating).first
+  show = Show.find(highest_rating)
   
 end
 
