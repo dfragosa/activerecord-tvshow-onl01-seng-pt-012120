@@ -9,7 +9,7 @@ def self.most_popular_show
 end
 
 def self.lowest_rating
-  Show.
+  Show.minimum
 end
 
 def least_popular_show
