@@ -16,7 +16,7 @@ def self.least_popular_show
   show = Show.find_by("rating = ?", self.lowest_rating)
 end
 
-def ratings_sum
+def self.ratings_sum
   Show.sum(:rating)
 end
 
