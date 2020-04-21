@@ -1,5 +1,5 @@
 def highest_rating
-  show = Show.create
+  show = Show.new
   show.maximum("rating")
 end
 
